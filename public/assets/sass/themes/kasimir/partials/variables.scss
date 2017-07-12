@@ -1,0 +1,60 @@
+/*
+ * Base colors etc.
+ * @package   Commons_Booking
+ * @author    Florian Egermann <florian@wielebenwir.de>
+ * @license   GPL-2.0+
+ * @since     0.7
+ * @link      http://www.wielebenwir.de
+ * @copyright 2015 wielebenwir
+ */
+
+/* Color Definitions */
+
+$grey: #E1E1E1;
+$light-grey: #F6F6F6;
+$dark-grey: #414141;
+$black: #000;
+$white: #fff;
+
+$blue: #3356A4;
+$dark-blue: darken($blue, 10%);
+$light-blue: #E5FDFF;
+
+$green: #56A820;
+$light-green: #207B1C;
+
+$red: #FF0002;
+$dark-red: #A70001;
+
+$kasi-blue: #CCEEFF;
+$kasi-orange: #D53E08;
+$kasi-orange-light: lighten($kasi-orange, 10%);
+$kasi-orange-dark: darken($kasi-orange, 10%);
+
+/* Element styles */
+
+$bg-color: $kasi-blue;
+$bg-inner-color: $white;
+
+$border-color: darken ($kasi-blue, 30%);
+$border-inner-color: $kasi-blue;
+
+$highlight-color: $green;
+$highlight-color-dark: darken($green, 10%);
+$highlight-color-light: lighten($green, 50%);
+
+$action-color: $green;
+$action-color-light: $kasi-orange-light;
+
+$inactive-color: $grey;
+
+$error-color: $red;
+$error-color-dark: $dark-red;
+
+
+/* Elements & widths */
+$padding: 1em;
+$radius: 3px;
+$width: 100%;
+$cellwidth: $width / 7;
+$cellheight: 40px;
